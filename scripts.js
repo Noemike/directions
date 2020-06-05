@@ -1,21 +1,26 @@
-//$('p').css({color: 'purple'});
-//$('p').css({font-size: 10});
-//$('p').text('Cool');
-//Change the background color of the first box to purple, if the color is purple
+let color='purple'
+let number=10
+let word='cool'
 
-//if the number is bigger than 100 to whoah, that's a big number.
-//otherwise just a regular number, please.
-//Change the text to Power of DOM of the third if the word is cool, otherwise change the fourth one
+/*if (color='purple') {
+    $('North').html('purple')
+}*/
 
-
-/*$('.South').text(
-    if (cool===cool) {
-        console.log("Power of DOM")    
+/*$('.North').css('background': 'purple'
+    if (color='purple') {
     }
-))*/
+)*/
 
-$('p').css({color: 'purple'});
-$('p').css({fontsize: 10});
-$('p').text('Cool');
+if (number>100) {
+    console.log ("whoah, that's a big number")
+} else {
+    console.log ("just a regular number, please")
+}
 
-$('.East').text('not cool')
+/*$('.North').text(
+    if (number>100) {
+        console.log ("whoah, that's a big number")
+    } else {
+        console.log ("just a regular number, please")
+    } 
+)*/
